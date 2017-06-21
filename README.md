@@ -20,7 +20,7 @@
  
     Set path of boost to your project.
     
- 3- Use FastICP as the file "src/main".
+ 3- Use FastICP as the file "src/main.c".
  
  
  
