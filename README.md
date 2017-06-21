@@ -1,4 +1,4 @@
-# FastICP
+# FastICP (point to point)
  ICP algorithm , fast and easy to use in point cloud registration .
  
  The speed of demo under release X86 mode is close to the funtion "pcregrigid" in Matlab2015a.
