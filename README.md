@@ -1,9 +1,14 @@
 # FastICP (point to point)
- ICP algorithm , fast and easy to use in point cloud registration .
+ ICP algorithm , fast and easy to use in point cloud registration . 
+ 
+ Details are found in:
+ 
+ Besl, P., & McKay, N. (1992). A method for registration of 3-D shapes. 
+ IEEE Transactions on pattern analysis and machine intelligence, 239-256.
  
  The speed of demo under release X86 mode is close to the funtion "pcregrigid" in Matlab2015a.
  
- Based on libnabo.from http://github.com/ethz-asl/libnabo.
+ Nearest points searching is based on libnabo.from http://github.com/ethz-asl/libnabo.
  
  Include the Extrapolation in quaternion space. Details are found in:
  
