@@ -15,7 +15,7 @@
  Besl, P., & McKay, N. (1992). A method for registration of 3-D shapes. 
  IEEE Transactions on pattern analysis and machine intelligence, 239-256.
  
- # Steps
+ # How to use it
  
  1- Download Eigen 3.0+ from http://eigen.tuxfamily.org.
  
