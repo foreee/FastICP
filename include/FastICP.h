@@ -58,12 +58,6 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 //using namespace Nabo;
 using namespace Eigen;
 
-
-
-class FastICP
-{
-public:
-	FastICP();
 	typedef struct{
 		Matrix3d RT;      //3*3 rotation matrix
 		Vector3d TR;      //3*1 translate matrix
@@ -71,6 +65,12 @@ public:
 		double res;      //error
 		int  iter;   //iter 
 	} ICPOUT;
+
+class FastICP
+{
+public:
+	FastICP();
+
 
 private:
 	
