@@ -403,7 +403,7 @@ void FastICP::icp_alg(double* model,__int64 mrow,double* target,__int64 trow,ICP
 
 	free(dataclose);free(err);free(qs);free(dq);
 }
-FastICP::ICPOUT* FastICP::DoICP(char* modelpath,char* datapath)
+ICPOUT* FastICP::DoICP(char* modelpath,char* datapath)
 {
 	clock_t start, stop;
 	double res=0.0001;
